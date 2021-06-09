@@ -31,6 +31,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Make peers and start broadcasting chain.
     * - [ ] Sync chain on connect.
     * - [ ] Avoid redundant interactions.
+    * - [ ] ...
 * ### Part 5: _Wallet, Keys and Transactions_
     * - [ ] Create wallet class.
     * - [ ] Create key pair and public key.
@@ -41,20 +42,38 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Create wallets and wallet transactions.
     * - [ ] Handeling transactions with multiple outputs.
     * - [ ] Handeling transaction cases.
+    * - [ ] ...
 * ### Part 6: _Transaction Pool_
-    * - [ ] 
+    * - [ ] Create transaction pool class and set transactions.
+    * - [ ] API transactions and mine them.
+    * - [ ] Handeling invalid transactions.
+    * - [ ] Transaction updates in real-time.
+    * - [ ] Getting transaction pool map.
+    * - [ ] Broadcasting transactions.
+    * - [ ] Sync transaction pool map on connect.
+    * - [ ] ...
 * ### Part 7: _Mining Transactions_
-    * - [ ] 
+    * - [ ] Create Transaction miner class.
+    * - [ ] Grab valid transactions.
+    * - [ ] Configuring about reward transactions.
+    * - [ ] Mine transactions endpoint.
+    * - [ ] Clear recorded transactions on successful replace.
+    * - [ ] Make sure about blockchain balance.
+    * - [ ] Calculating the balance before each transaction.
+    * - [ ] Create wallet-info request.
+    * - [ ] Validating transaction data.
+    * - [ ] Validating input balances.
+    * - [ ] Prevent duplicate transactions in block.
+    * - [ ] Validating transaction chain.
+    * - [ ] ...
 * ### Part 8: _Blockchain Front-End_
-    * - [ ] 
+    * - [ ] Create all front-end with React.
+    * - [ ] ...
 * ### Part 9: _Cryptocurrency Front-End_
-    * - [ ] 
+    * - [ ] Create all front-end with React.
+    * - [ ] ...
 * ### Part 10: _Other and Non-categorized ones_
-    * - [ ] Make Tyche coin.
-    * - [ ] Make wallet and keys.
-    * - [ ] Mine transactions.
-    * - [ ] Make a mining pool for mining blocks with new transactions.
     * - [ ] Set new ideas and features for Tyche.
+    * - [ ] Make implementations and discuss about private or public architecture.
     * - [ ] Make GUI for blockchain.
     * - [ ] Make GUI for Tyche coin.
-    * - [ ] Make implementations and discuss about private or public architecture.
