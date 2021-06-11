@@ -4,18 +4,19 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
 
 ## TODO:
 * ### Part 1: _Blocks_
+    * - [x] Set up the whole application.
     * - [x] Create block class.
-    * - [x] Pass tests.
     * - [x] Create the genesis block.
     * - [x] Mine blocks.
-    * - [x] Crypto hash and SHA-256.
+    * - [x] Config crypto hash and SHA-256.
     * - [x] Hash in mineBlock.
+    * - [x] Pass tests.
 * ### Part 2: _Blockchain_
     * - [x] Create Blockchain class.
-    * - [x] Pass tests.
     * - [ ] Ensure about chain validation.
     * - [ ] Ensure about chain replacement.
     * - [ ] Make blockchain a real chain connected to eatch other.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### part 3: _Proof-of-work_
     * - [ ] Create Proof-of-work structure and architecture.
@@ -25,6 +26,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Adjust the difficulty in mineBlock.
     * - [ ] Config average work script and binary hashes.
     * - [ ] Prevent difficulty jumps.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 4: _API and networks_
     * - [ ] Setup API and express API.
@@ -35,6 +37,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Make peers and start broadcasting chain.
     * - [ ] Sync chain on connect.
     * - [ ] Avoid redundant interactions.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 5: _Wallet, Keys and Transactions_
     * - [ ] Create wallet class.
@@ -46,6 +49,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Create wallets and wallet transactions.
     * - [ ] Handeling transactions with multiple outputs.
     * - [ ] Handeling transaction cases.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 6: _Transaction Pool_
     * - [ ] Create transaction pool class and set transactions.
@@ -55,6 +59,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Getting transaction pool map.
     * - [ ] Broadcasting transactions.
     * - [ ] Sync transaction pool map on connect.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 7: _Mining Transactions_
     * - [ ] Create Transaction miner class.
@@ -69,6 +74,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Validating input balances.
     * - [ ] Prevent duplicate transactions in block.
     * - [ ] Validating transaction chain.
+    * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 8: _Blockchain Front-End_
     * - [ ] Create all front-end with React.
