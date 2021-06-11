@@ -5,15 +5,18 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
 ## TODO:
 * ### Part 1: _Blocks_
     * - [x] Create block class.
+    * - [x] Pass tests.
     * - [x] Create the genesis block.
     * - [x] Mine blocks.
     * - [x] Crypto hash and SHA-256.
     * - [x] Hash in mineBlock.
 * ### Part 2: _Blockchain_
-    * - [ ] Create Blockchain class.
+    * - [x] Create Blockchain class.
+    * - [x] Pass tests.
     * - [ ] Ensure about chain validation.
     * - [ ] Ensure about chain replacement.
     * - [ ] Make blockchain a real chain connected to eatch other.
+    * - [ ] ...
 * ### part 3: _Proof-of-work_
     * - [ ] Create Proof-of-work structure and architecture.
     * - [ ] Make sure if proof-of-work is the best way for Tyche or other options.
@@ -22,6 +25,7 @@ This project is called Tyche Blockchain. It is based on JavaScript as the blockc
     * - [ ] Adjust the difficulty in mineBlock.
     * - [ ] Config average work script and binary hashes.
     * - [ ] Prevent difficulty jumps.
+    * - [ ] ...
 * ### Part 4: _API and networks_
     * - [ ] Setup API and express API.
     * - [ ] Post requests to mine a block.
