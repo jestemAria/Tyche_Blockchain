@@ -2,7 +2,11 @@ const Blockchain = require('./blockchain');
 const Block = require('./block');
 
 describe('Blockchain', () => {
-    const blockchain = new Blockchain();
+    let blockchain;
+
+    beforeEach(() => {
+        blockchain = new Blockchain();
+    });
 
     it('contains a `chain` array instance', () => {
         expect(blockchain.chain instanceof Array).toBe(true);
@@ -20,22 +24,50 @@ describe('Blockchain', () => {
     });
 
     describe('isValidChain()', () => {
+        describe('chain does not starts with genesis block', () => {
+            it('returns false', () => {
+                blockchain.chain[0] = { data: 'fake_genesis' };
+
+                expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
+            });
+        });
+
         describe('starts with genesis block and has multiple blocks', () => {
             describe('and a lastHash refrence has changed', () => {
-                it('returns false', () => {});
+                it('returns false', () => {
+                    blockchain.addBlock({ data: 'Tehran' });
+                    blockchain.addBlock({ data: 'Alborz' });
+                    blockchain.addBlock({ data: 'Zanjan' });
+
+                    blockchain.chain[2].lastHash = 'broken-lastHash';
+                    
+                    expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
+                });
             });
 
             describe('the chain contains a block with an invalid field', () => {
-                it('returns false', () => {});
+                it('returns false', () => {
+                    blockchain.addBlock({ data: 'Tehran' });
+                    blockchain.addBlock({ data: 'Alborz' });
+                    blockchain.addBlock({ data: 'Zanjan' });
+
+                    blockchain.chain[2].data = 'bad-data';
+
+                    expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
+                });
             });
 
             describe('the chain deos not contain any invalid blocks', () => {
-                it('returns true', () => {});
+                it('returns true', () => {
+                    blockchain.addBlock({ data: 'Tehran' });
+                    blockchain.addBlock({ data: 'Alborz' });
+                    blockchain.addBlock({ data: 'Zanjan' });
+
+                    expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);                    
+                });
             });
         });
 
-        describe('chain does not starts with genesis block', () => {
-            it('returns false', () => {});
-        });
+        
     });
 });
