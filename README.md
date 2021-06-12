@@ -1,7 +1,18 @@
 # Tyche_Blockchain
 
-This project is called Tyche Blockchain. It is based on JavaScript as the blockchain core.
+This project is called Tyche Blockchain.
+It is created as the result of software engineering project course for final bachelor project in university of Zanjan.
+### About Tyche Blockchain:
 
+> Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and deploy Tyche Coin as the cryptocurrency.
+> It is based on JavaScript as the blockchain core and for blockchain backend. 
+> The frontend will be based on React but it is not deployed and created yet.
+> The new ideas of Tyche Blockchain and Tyche Coin will be documented as fast as they deploy in the project.
+
+* By: Aria Radmehr
+* Head Professor : 
+* Initialized in: June 7, 2021
+* Finished in:
 ## TODO:
 * ### Part 1: _Blocks_
     * - [x] Set up the whole application.
