@@ -33,12 +33,13 @@ describe('Blockchain', () => {
         });
 
         describe('starts with genesis block and has multiple blocks', () => {
+            beforeEach(() => {
+                blockchain.addBlock({ data: 'Tehran' });
+                blockchain.addBlock({ data: 'Alborz' });
+                blockchain.addBlock({ data: 'Zanjan' });
+            });
             describe('and a lastHash refrence has changed', () => {
                 it('returns false', () => {
-                    blockchain.addBlock({ data: 'Tehran' });
-                    blockchain.addBlock({ data: 'Alborz' });
-                    blockchain.addBlock({ data: 'Zanjan' });
-
                     blockchain.chain[2].lastHash = 'broken-lastHash';
                     
                     expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
@@ -47,10 +48,6 @@ describe('Blockchain', () => {
 
             describe('the chain contains a block with an invalid field', () => {
                 it('returns false', () => {
-                    blockchain.addBlock({ data: 'Tehran' });
-                    blockchain.addBlock({ data: 'Alborz' });
-                    blockchain.addBlock({ data: 'Zanjan' });
-
                     blockchain.chain[2].data = 'bad-data';
 
                     expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
@@ -59,11 +56,7 @@ describe('Blockchain', () => {
 
             describe('the chain deos not contain any invalid blocks', () => {
                 it('returns true', () => {
-                    blockchain.addBlock({ data: 'Tehran' });
-                    blockchain.addBlock({ data: 'Alborz' });
-                    blockchain.addBlock({ data: 'Zanjan' });
-
-                    expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);                    
+                    expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);
                 });
             });
         });
