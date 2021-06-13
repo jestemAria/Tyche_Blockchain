@@ -9,8 +9,8 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 > The frontend will be based on React but it is not deployed and created yet.
 > The new ideas of Tyche Blockchain and Tyche Coin will be documented as fast as they deploy in the project.
 
-* By: Aria Radmehr
-* Head Professor : 
+* By : Aria Radmehr
+* Head Professor and Supervisor : 
 * Initialized : June 7, 2021
 * Finished :
 ## TODO:
