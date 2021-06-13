@@ -11,8 +11,8 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 
 * By: Aria Radmehr
 * Head Professor : 
-* Initialized in: June 7, 2021
-* Finished in:
+* Initialized : June 7, 2021
+* Finished :
 ## TODO:
 * ### Part 1: _Blocks_
     * - [x] Set up the whole application.
@@ -24,7 +24,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Pass tests.
 * ### Part 2: _Blockchain_
     * - [x] Create Blockchain class.
-    * - [ ] Ensure about chain validation.
+    * - [x] Ensure about chain validation.
     * - [ ] Ensure about chain replacement.
     * - [ ] Make blockchain a real chain connected to eatch other.
     * - [ ] Pass tests.
