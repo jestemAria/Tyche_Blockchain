@@ -3,7 +3,7 @@
 This project is called Tyche Blockchain.
 It is created as the result of software engineering project course for final bachelor project in university of Zanjan.
 ### About Tyche Blockchain:
-***
+------
 
 Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and deploy Tyche Coin as the cryptocurrency.
 > It is based on JavaScript as the blockchain core and for blockchain backend. 
