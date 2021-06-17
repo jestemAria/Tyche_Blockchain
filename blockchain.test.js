@@ -67,6 +67,17 @@ describe('Blockchain', () => {
         });
 
         describe('replaceChain()', () => {
+            let errorMock;
+            let logMoch;
+
+            beforeEach(() => {
+                errorMock = jest.fn();
+                logMoch = jest.fn();
+
+                global.console.error = errorMock;
+                global.console.log = logMoch;
+            });
+
             describe('the new chain is not longer', () => {
                 it('does not replace the chain', () => {
                     newChain.chain[0] = { new: 'chain' };
