@@ -30,7 +30,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Ensure about chain replacement.
     * - [x] Pass tests.
     * - [x] Stub console output after running each test.
-* ### part 3: _Proof-of-work_
+* ### Part 3: _Proof-of-work_
     * - [ ] Create Proof-of-work structure and architecture.
     * - [ ] Make sure if proof-of-work is the best way for Tyche or other options.
     * - [ ] Set difficulty and nonce value.
