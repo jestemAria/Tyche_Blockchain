@@ -103,4 +103,6 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [ ] Change proof-of-work to proof-of-stake.
     * - [ ] Collecting libraries and data for installation guide.
     * - [ ] Write Tyche Whitepaper.
+    * - [ ] Publish Tyche Blockchain in papers and iran blockchain organization.
+    * - [ ] Publish documents and whitepaper in linkedin. 
     * - [ ] Collect all documents for Tyche essay.
