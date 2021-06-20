@@ -11,7 +11,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 > The new ideas of Tyche Blockchain and Tyche Coin will be documented as fast as they deploy in the project.
 
 * By : Aria Radmehr
-* Head Professor and Supervisor : 
+* Head Professor and Supervisor : Sajad Haghzad Klidbary
 * Initialized : June 7, 2021
 * Finished :
 ## TODO:
