@@ -55,13 +55,13 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * ### Part 5: _Wallet, Keys and Transactions_
     * - [ ] Create wallet class.
     * - [ ] Create key pair and public key.
-    * - [ ] Assinging data and verifying signatures.
+    * - [ ] Assigning data and verifying signatures.
     * - [ ] Make transaction objects and the output map.
-    * - [ ] Make trassaction inputs.
+    * - [ ] Make transaction inputs.
     * - [ ] Validate transactions.
     * - [ ] Create wallets and wallet transactions.
-    * - [ ] Handeling transactions with multiple outputs.
-    * - [ ] Handeling transaction cases.
+    * - [ ] Handling transactions with multiple outputs.
+    * - [ ] Handling transaction cases.
     * - [ ] Pass tests.
     * - [ ] ...
 * ### Part 6: _Transaction Pool_
@@ -102,7 +102,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [ ] Make GUI for Tyche coin.
     * - [ ] Change proof-of-work to proof-of-stake.
     * - [ ] Collecting libraries and data for installation guide.
-    * - [ ] Write Tyche Whitepaper.
-    * - [ ] Publish Tyche Blockchain in papers and iran blockchain organization.
-    * - [ ] Publish documents and whitepaper in linkedin. 
+    * - [ ] Write Tyche White-paper.
+    * - [ ] Publish Tyche Blockchain in papers and Iran blockchain organization.
+    * - [ ] Publish documents and White-paper in linkedIn. 
     * - [ ] Collect all documents for Tyche essay.
