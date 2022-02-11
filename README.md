@@ -25,7 +25,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Pass tests.
 * ### Part 2: _Blockchain_
     * - [x] Create Blockchain class.
-    * - [x] Make blockchain a real chain connected to eatch other.
+    * - [x] Make blockchain a real chain connected to each other.
     * - [x] Ensure about chain validation.
     * - [x] Ensure about chain replacement.
     * - [x] Pass tests.
@@ -67,7 +67,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * ### Part 6: _Transaction Pool_
     * - [ ] Create transaction pool class and set transactions.
     * - [ ] API transactions and mine them.
-    * - [ ] Handeling invalid transactions.
+    * - [ ] Handling invalid transactions.
     * - [ ] Transaction updates in real-time.
     * - [ ] Getting transaction pool map.
     * - [ ] Broadcasting transactions.
