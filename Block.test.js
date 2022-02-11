@@ -19,7 +19,7 @@ describe('Block', () => {
         expect(block.hash).toEqual(hash);
         expect(block.data).toEqual(data);
         expect(block.nonce).toEqual(nonce);
-        expect(block.difficulity).toEqual(difficulty);
+        expect(block.difficulty).toEqual(difficulty);
     });
 
     describe('genesis()', () => {
@@ -66,9 +66,9 @@ describe('Block', () => {
             );
         });
 
-        it('sets a `hash` that maches the difficulty creteria', () => {
-            expect(minedBlock.hash.substring(0, minedBlock.difficulity)).toEqual(
-                '0'.repeat(minedBlock.difficulity));
+        it('sets a `hash` that matches the difficulty criteria', () => {
+            expect(minedBlock.hash.substring(0, minedBlock.difficulty)).toEqual(
+                '0'.repeat(minedBlock.difficulty));
         });
     });
 });
