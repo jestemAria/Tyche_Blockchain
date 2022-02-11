@@ -43,7 +43,7 @@ describe('Blockchain', () => {
                 blockchain.addBlock({ data: 'Alborz' });
                 blockchain.addBlock({ data: 'Zanjan' });
             });
-            describe('and a lastHash refrence has changed', () => {
+            describe('and a lastHash reference has changed', () => {
                 it('returns false', () => {
                     blockchain.chain[2].lastHash = 'broken-lastHash';
                     
@@ -59,7 +59,7 @@ describe('Blockchain', () => {
                 });
             });
 
-            describe('the chain deos not contain any invalid blocks', () => {
+            describe('the chain does not contain any invalid blocks', () => {
                 it('returns true', () => {
                     expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);
                 });
