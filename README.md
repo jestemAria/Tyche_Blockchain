@@ -38,9 +38,8 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Adjust the difficulty in mineBlock.
     * - [x] Improve Proof-of-work algorithm.
     * - [x] Config average work script and binary hashes.
-    * - [ ] Prevent difficulty jumps.
-    * - [ ] Pass tests.
-    * - [ ] ...
+    * - [x] Prevent difficulty jumps.
+    * - [x] Pass tests.
 * ### Part 4: _API and networks_
     * - [ ] Setup API and express API.
     * - [ ] Post requests to mine a block.
