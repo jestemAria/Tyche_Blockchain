@@ -43,7 +43,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * ### Part 4: _API and networks_
     * - [x] Setup API and express API.
     * - [x] Post requests to mine a block.
-    * - [ ] PubSub _still no idea what it is, i should read more letters._
+    * - [x] PubSub pattern for real-time updates.
     * - [ ] Setup a mini database.
     * - [ ] Broadcasting chain on API.
     * - [ ] Make peers and start broadcasting chain.
