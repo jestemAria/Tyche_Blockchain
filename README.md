@@ -41,8 +41,8 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Prevent difficulty jumps.
     * - [x] Pass tests.
 * ### Part 4: _API and networks_
-    * - [ ] Setup API and express API.
-    * - [ ] Post requests to mine a block.
+    * - [x] Setup API and express API.
+    * - [x] Post requests to mine a block.
     * - [ ] PubSub _still no idea what it is, i should read more letters._
     * - [ ] Setup a mini database.
     * - [ ] Broadcasting chain on API.
