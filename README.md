@@ -51,7 +51,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Avoid redundant interactions.
     * - [x] Pass tests.
 * ### Part 5: _Wallet, Keys and Transactions_
-    * - [ ] Create wallet class.
+    * - [x] Create wallet class.
     * - [ ] Create key pair and public key.
     * - [ ] Assigning data and verifying signatures.
     * - [ ] Make transaction objects and the output map.
