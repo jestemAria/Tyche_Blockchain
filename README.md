@@ -56,7 +56,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Assigning data and verifying signatures.
     * - [x] Make transaction objects and the output map.
     * - [x] Make transaction inputs.
-    * - [ ] Validate transactions.
+    * - [x] Validate transactions.
     * - [ ] Create wallets and wallet transactions.
     * - [ ] Handling transactions with multiple outputs.
     * - [ ] Handling transaction cases.
