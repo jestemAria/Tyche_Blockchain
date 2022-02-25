@@ -92,7 +92,10 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * ### Part 9: _Cryptocurrency Front-End_
     * - [ ] Create all front-end with React.
     * - [ ] ...
-* ### Part 10: _Other and Non-categorized ones_
+* ### Part 10: _Deploy Project_
+    * - [ ] Deploy the project on Heroku PAAS.
+    * - [ ] Deploy the project on Fandogh PAAS.
+* ### Part 11: _Other and Non-categorized ones_
     * - [ ] Set new ideas and features for Tyche.
     * - [ ] Make implementations and discuss about private or public architecture.
     * - [ ] Make GUI for blockchain.
