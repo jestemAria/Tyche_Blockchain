@@ -64,7 +64,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * ### Part 6: _Transaction Pool_
     * - [x] Create transaction pool class and set transactions.
     * - [x] API transactions and mine them.
-    * - [ ] Handling invalid transactions.
+    * - [x] Handling invalid transactions.
     * - [ ] Transaction updates in real-time.
     * - [ ] Getting transaction pool map.
     * - [ ] Broadcasting transactions.
