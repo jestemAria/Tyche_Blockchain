@@ -72,7 +72,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Pass tests.
 * ### Part 7: _Mining Transactions_
     * - [x] Create Transaction miner class.
-    * - [ ] Grab valid transactions.
+    * - [x] Grab valid transactions.
     * - [ ] Configuring about reward transactions.
     * - [ ] Mine transactions endpoint.
     * - [ ] Clear recorded transactions on successful replace.
