@@ -76,7 +76,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Configuring about reward transactions.
     * - [x] Clear blockchain transactions.
     * - [x] Mine transactions endpoint.
-    * - [ ] Clear recorded transactions on successful replace.
+    * - [x] Clear recorded transactions on successful replace.
     * - [ ] Make sure about blockchain balance.
     * - [ ] Calculating the balance before each transaction.
     * - [ ] Create wallet-info request.
