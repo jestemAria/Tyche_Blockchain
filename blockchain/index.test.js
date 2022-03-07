@@ -88,14 +88,14 @@ describe('Blockchain', () => {
 
         describe('replaceChain()', () => {
             let errorMock;
-            let logMoch;
+            let logMock;
 
             beforeEach(() => {
                 errorMock = jest.fn();
-                logMoch = jest.fn();
+                logMock = jest.fn();
 
                 global.console.error = errorMock;
-                global.console.log = logMoch;
+                global.console.log = logMock;
             });
 
             describe('the new chain is not longer', () => {
@@ -145,7 +145,7 @@ describe('Blockchain', () => {
                     });
 
                     it('logs about the chain replacement', () => {
-                        expect(logMoch).toHaveBeenCalled();
+                        expect(logMock).toHaveBeenCalled();
                     });
                 });
             });
