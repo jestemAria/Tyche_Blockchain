@@ -213,7 +213,7 @@ describe('Blockchain', () => {
                     [wallet.publicKey]: 8900,
                     fooRecipient: 100
                 };
-                
+
                 const evilTransaction = {
                     input: {
                         timestamp: Date.now(),
@@ -233,6 +233,10 @@ describe('Blockchain', () => {
 
         describe('and a block contains multiple identical transactions', () => {
             it('returns false and logs an error', () => {
+                newChain.addBlock({ data: [transaction, transaction, transaction, rewardTransaction] });
+
+                expect(blockchain.validTransactionData({ chain: newChain.chain })).toBe(false);
+                expect(errorMock).toHaveBeenCalled();
             });
         });
     });
