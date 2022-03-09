@@ -37,6 +37,7 @@ class Blockchain{
     validTransactionData({ chain }) {
         for (let index=1; index < chain.length; index++) {
             const block = chain[index];
+            const transactionSet = new Set();
             let rewardTransactionCount = 0;
 
             for (let transaction of block.data) {
@@ -66,6 +67,13 @@ class Blockchain{
                     if (transaction.input.amount !== trueBalance) {
                         console.error('Invalid input amount');
                         return false;
+                    }
+
+                    if (transactionSet.has(transaction)) {
+                        console.error('Duplicate transaction');
+                        return false;
+                    } else {
+                        transactionSet.add(transaction);
                     }
                 }
             }
