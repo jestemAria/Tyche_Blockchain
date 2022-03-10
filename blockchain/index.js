@@ -4,8 +4,8 @@ const Wallet = require('../wallet');
 const { cryptoHash } = require('../util');
 const { REWARD_INPUT, MINING_REWARD } = require('../config');
 
-class Blockchain{
-    constructor(){
+class Blockchain {
+    constructor() {
         this.chain = [Block.genesis()];
     }
 
@@ -18,14 +18,19 @@ class Blockchain{
         this.chain.push(newBlock);
     }
 
-    replaceChain(chain, onSuccess){
-        if (chain.length <= this.chain.length){
+    replaceChain(chain, validateTransaction, onSuccess) {
+        if (chain.length <= this.chain.length) {
             console.error('The incoming chain must be longer');
             return;
         }
 
-        if (!Blockchain.isValidChain(chain)){
+        if (!Blockchain.isValidChain(chain)) {
             console.error('The incoming chain must be valid');
+            return;
+        }
+
+        if (validateTransaction && !this.validTransactionData({ chain })) {
+            console.error('The incoming chain must contain valid transaction data');
             return;
         }
 
@@ -83,26 +88,26 @@ class Blockchain{
     }
 
     static isValidChain(chain) {
-        if (JSON.stringify(chain[0]) != JSON.stringify(Block.genesis())){
+        if (JSON.stringify(chain[0]) != JSON.stringify(Block.genesis())) {
             return false
         };
 
-        for (let counter = 1 ; counter < chain.length ; counter++){
+        for (let counter = 1 ; counter < chain.length ; counter++) {
             const { timestamp, lastHash, hash, data, nonce, difficulty } = chain[counter];
             const actualLastHash = chain[counter-1].hash;
             const lastDifficulty = chain[counter-1].difficulty;
 
-            if (lastHash != actualLastHash){
+            if (lastHash != actualLastHash) {
                 return false
             };
             
             const validatedHash = cryptoHash(timestamp, lastHash, data, nonce, difficulty);
 
-            if (hash != validatedHash){
+            if (hash != validatedHash) {
                 return false
             };
 
-            if (Math.abs(lastDifficulty - difficulty) > 1){
+            if (Math.abs(lastDifficulty - difficulty) > 1) {
                 return false
             }
         }
