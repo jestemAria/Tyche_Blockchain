@@ -82,9 +82,8 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Validating transaction data.
     * - [x] Validating input balances.
     * - [x] Prevent duplicate transactions in block.
-    * - [ ] Validating transaction chain.
-    * - [ ] Pass tests.
-    * - [ ] ...
+    * - [x] Validating transaction chain.
+    * - [x] Pass tests.
 * ### Part 8: _Blockchain Front-End_
     * - [ ] Create all front-end with React.
     * - [ ] ...
