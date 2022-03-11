@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "npm start redis && nodemon index.js",
     "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js",
-    "start-redis": "redis-server --daemonize yes"
+    "start-redis": "redis-server --daemonize yes",
+    "build-client": "parcel build client/src/index.html --out-dir client/dist"
   },
   "repository": {
     "type": "git",
@@ -31,9 +32,13 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "core-js": "^2.6.12",
     "elliptic": "^6.4.1",
     "express": "^4.16.3",
     "hex-to-binary": "^1.0.1",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
     "redis": "^2.8.0",
     "request": "^2.88.0",
     "uuid": "^3.3.2"
