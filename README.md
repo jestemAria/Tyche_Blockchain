@@ -85,6 +85,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Validating transaction chain.
     * - [x] Pass tests.
 * ### Part 8: _Blockchain Front-End_
+    * - [x] Provide live updates during development.
     * - [ ] Create all front-end with React.
     * - [ ] Serve a front-end page.
     * - [ ] Add javascript to the front-end.
