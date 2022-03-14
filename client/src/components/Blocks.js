@@ -6,7 +6,7 @@ class Blocks extends Component {
     componentDidMount() {
         fetch('http://localhost:3000/api/blocks')
             .then(response => response.json())
-                .then(json => this.setState({ blocks: json }));
+            .then(json => this.setState({ blocks: json }));
     }
 
     render() {
@@ -18,7 +18,7 @@ class Blocks extends Component {
                 {
                     this.state.blocks.map(block => {
                         return (
-                            <div key={block.hash}>{block.hash}</div>
+                            <div key={block.hash} className='Block'>{block.hash}</div>
                         )
                     })
                 }
