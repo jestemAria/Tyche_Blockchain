@@ -107,6 +107,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [x] Post transaction from front-end.
     * - [x] Make transaction pool component.
     * - [x] Polling for new transactions live.
+    * - [x] Add mine transactions button in the transaction pool page.
     * - [ ] ...
 * ### Part 10: _Deploy Project_
     * - [ ] Deploy the project on Heroku PAAS.
