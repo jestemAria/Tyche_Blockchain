@@ -13,7 +13,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
 * By : Aria Radmehr
 * Head Professor and Supervisor : Sajad Haghzad Klidbary
 * Initialized : June 7, 2021
-* Finished :
+* Finished : July 13, 2022
 ## TODO:
 * ### Part 1: _Blocks_
     * - [x] Set up the whole application.
@@ -113,13 +113,7 @@ Tyche Blockchain is focus on creating a blockchain based on _proof-of-work_ and 
     * - [ ] Deploy the project on Heroku PAAS.
     * - [ ] Deploy the project on Fandogh PAAS.
 * ### Part 11: _Other and Non-categorized ones_
-    * - [ ] Set new ideas and features for Tyche.
-    * - [ ] Make implementations and discuss about private or public architecture.
-    * - [ ] Make GUI for blockchain.
-    * - [ ] Make GUI for Tyche coin.
-    * - [ ] Change proof-of-work to proof-of-stake.
     * - [ ] Collecting libraries and data for installation guide.
     * - [ ] Write Tyche White-paper.
     * - [ ] Publish Tyche Blockchain in papers and Iran blockchain organization.
     * - [ ] Publish documents and White-paper in linkedIn. 
-    * - [ ] Collect all documents for Tyche essay.
